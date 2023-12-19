@@ -19,7 +19,7 @@ function App() {
     }
   };
 
-  const buttonStyle = "bg-gray-500 text-white text-lg p-4";
+  const buttonStyle = "bg-gray-500 text-white text-lg p-4 rounded-lg";
 
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gray-800">
@@ -27,15 +27,15 @@ function App() {
         <input
           type="text"
           value={result}
-          className="w-60 p-2 bg-white border-none rounded-lg text-right text-xl font-bold"
+          className="w-68 p-2 bg-white border-none rounded-lg text-right text-xl font-bold"
         />
       </form>
 
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-2 border shadow-md shadow-gray-400 p-6 rounded-xl">
         <button
           name="clear"
           onClick={clear}
-          className="col-span-2 bg-red-500 text-white text-lg p-4"
+          className="col-span-2 bg-red-500 text-white text-lg p-4 rounded-lg"
         >
           Clear
         </button>
@@ -87,7 +87,14 @@ function App() {
         <button name="." onClick={handleClick} className={buttonStyle}>
           .
         </button>
-        <button id="result" onClick={calculate} className={buttonStyle}>
+        {/* <button id="result" onClick={calculate} className={buttonStyle}>
+          =
+        </button> */}
+        <button
+          id="result"
+          onClick={calculate}
+          className={`${buttonStyle} col-span-2 bg-green-500`}
+        >
           =
         </button>
       </div>
