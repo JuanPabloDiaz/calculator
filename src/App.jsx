@@ -44,40 +44,49 @@ function App() {
     });
   };
 
-  const buttonStyle =
-    "flex justify-center items-center bg-gray-500 text-white text-lg p-4 rounded-lg";
-
+  const buttonStyle = "bg-gray-500 text-white text-lg p-4 rounded-xl";
+  const buttonTopStyle =
+    "bg-[#A5A5A5] text-black font-bold text-2xl rounded-xl h-16";
+  const buttonLeftStyle = "bg-[#F89B10] font-extrabold rounded-xl text-white";
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen bg-gray-800">
+      <div className="flex flex-col justify-center items-center h-screen bg-gray-800 w-full">
         <form className="flex justify-center w-full p-5">
           <input
             type="text"
             value={result}
             readOnly
-            className="w-68 p-2 bg-black text-white border-none rounded-lg text-right text-xl font-bold"
+            className="w-1/2 md:w-5/12 lg:w-3/12 p-2 bg-black/40 text-white rounded-lg text-right text-4xl font-bold"
           />
         </form>
 
-        <div className="grid grid-cols-4 gap-2 border shadow-md shadow-gray-400 p-6 rounded-xl bg-black">
+        <div className="grid grid-cols-4 gap-2 border shadow-md shadow-gray-400 p-6 rounded-xl bg-black lg:w-3/12">
           <button
             name="clear"
             onClick={clear}
-            className="col-span-1 bg-red-500 text-white text-lg p-4 rounded-lg"
+            className={(buttonStyle, buttonTopStyle)}
           >
             AC
           </button>
           <button
             name="toggleSign"
             onClick={toggleSign}
-            className={buttonStyle}
+            className={(buttonStyle, buttonTopStyle)}
           >
             +/-
           </button>
-          <button name="%" onClick={handleClick} className={buttonStyle}>
+          <button
+            name="%"
+            onClick={handleClick}
+            className={(buttonStyle, buttonTopStyle)}
+          >
             %
           </button>
-          <button name="/" onClick={handleClick} className={buttonStyle}>
+          <button
+            name="/"
+            onClick={handleClick}
+            className={(buttonStyle, buttonLeftStyle)}
+          >
             /
           </button>
           <button name="7" onClick={handleClick} className={buttonStyle}>
@@ -89,7 +98,11 @@ function App() {
           <button name="9" onClick={handleClick} className={buttonStyle}>
             9{/* <Fa9 /> */}
           </button>
-          <button name="*" onClick={handleClick} className={buttonStyle}>
+          <button
+            name="*"
+            onClick={handleClick}
+            className={(buttonStyle, buttonLeftStyle)}
+          >
             ×
           </button>
           <button name="4" onClick={handleClick} className={buttonStyle}>
@@ -104,7 +117,7 @@ function App() {
           <button
             name="-"
             onClick={handleClick}
-            className={`${buttonStyle} bg-[#F89B10]`}
+            className={(buttonStyle, buttonLeftStyle)}
           >
             -{/* <FaMinus /> */}
           </button>
@@ -117,7 +130,11 @@ function App() {
           <button name="3" onClick={handleClick} className={buttonStyle}>
             3{/* <Fa3 /> */}
           </button>
-          <button name="+" onClick={handleClick} className={buttonStyle}>
+          <button
+            name="+"
+            onClick={handleClick}
+            className={(buttonStyle, buttonLeftStyle)}
+          >
             +{/* <FaPlus /> */}
           </button>
           <button name="0" onClick={handleClick} className={buttonStyle}>
@@ -132,7 +149,7 @@ function App() {
           <button
             id="result"
             onClick={calculate}
-            className={`${buttonStyle} col-span-2 bg-green-500`}
+            className={`${buttonStyle} col-span-2 bg-[#F89B10] font-extrabold`}
           >
             =
           </button>
