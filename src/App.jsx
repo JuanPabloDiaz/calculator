@@ -1,18 +1,4 @@
 import { useState } from "react";
-import {
-  Fa0,
-  Fa1,
-  Fa2,
-  Fa3,
-  Fa4,
-  Fa5,
-  Fa6,
-  Fa7,
-  Fa8,
-  Fa9,
-  FaPlus,
-  FaMinus,
-} from "react-icons/fa6";
 
 function App() {
   const [result, setResult] = useState("");
@@ -90,13 +76,13 @@ function App() {
             /
           </button>
           <button name="7" onClick={handleClick} className={buttonStyle}>
-            7{/* <Fa7 /> */}
+            7
           </button>
           <button name="8" onClick={handleClick} className={buttonStyle}>
-            8{/* <Fa8 /> */}
+            8
           </button>
           <button name="9" onClick={handleClick} className={buttonStyle}>
-            9{/* <Fa9 /> */}
+            9
           </button>
           <button
             name="*"
@@ -106,46 +92,44 @@ function App() {
             ×
           </button>
           <button name="4" onClick={handleClick} className={buttonStyle}>
-            4{/* <Fa4 /> */}
+            4
           </button>
           <button name="5" onClick={handleClick} className={buttonStyle}>
-            5{/* <Fa5 /> */}
+            5
           </button>
           <button name="6" onClick={handleClick} className={buttonStyle}>
-            6{/* <Fa6 /> */}
+            6
           </button>
           <button
             name="-"
             onClick={handleClick}
             className={(buttonStyle, buttonLeftStyle)}
           >
-            -{/* <FaMinus /> */}
+            -
           </button>
           <button name="1" onClick={handleClick} className={buttonStyle}>
-            1{/* <Fa1 /> */}
+            1
           </button>
           <button name="2" onClick={handleClick} className={buttonStyle}>
-            2{/* <Fa2 /> */}
+            2
           </button>
           <button name="3" onClick={handleClick} className={buttonStyle}>
-            3{/* <Fa3 /> */}
+            3
           </button>
           <button
             name="+"
             onClick={handleClick}
             className={(buttonStyle, buttonLeftStyle)}
           >
-            +{/* <FaPlus /> */}
+            +
           </button>
           <button name="0" onClick={handleClick} className={buttonStyle}>
-            0{/* <Fa0 /> */}
+            0
           </button>
           <button name="." onClick={handleClick} className={buttonStyle}>
             .
           </button>
-          {/* <button id="result" onClick={calculate} className={buttonStyle}>
-          =
-        </button> */}
+
           <button
             id="result"
             onClick={calculate}
