@@ -6,7 +6,7 @@ This simple project is a responsive web application that allows users to make si
 
 ## Description 💡
 
-This project was built as part of the [freeCodeCamp](https://www.freecodecamp.org/) Front End Libraries Certification. The goal was to build a responsive web application that allows users to play calculator sounds by pressing keys on their keyboard or by clicking on the buttons on the screen.
+This project was built as part of the **[freeCodeCamp Front End Libraries Certification](https://www.freecodecamp.org/certification/1diazdev/front-end-development-libraries)**. The goal was to build a responsive web application that allows users to play calculator sounds by pressing keys on their keyboard or by clicking on the buttons on the screen.
 
 <div align="center">
 
