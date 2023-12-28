@@ -33,6 +33,7 @@ This project was built as part of the **[freeCodeCamp Front End Libraries Certif
 - Responsive design: [calculator](https://calculator.jpdiaz.dev) adapts to any screen size, ensuring a consistent and enjoyable experience for all users.
 - Sleek and modern UI: Tailwind CSS provides a beautiful and intuitive user interface.
 - Efficient and performant: Vite.js ensures fast loading times and a smooth experience.
+- math operations: addition, subtraction, multiplication, division, and modulo.
 
 ### Built With 🔑
 
@@ -45,12 +46,25 @@ Welcome to [calculator](https://calculator.jpdiaz.dev), a simple calculator buil
 Here's a closer look at the tech stack:
 
 - Front-End: React.js, Vite.js, Tailwind CSS
-- Back-End: API Integration (RESTful)
+- Back-End: N/A
 - Deployment: Vercel
 
 ## Get started 🛠️
 
 To get started with [calculator](https://calculator.jpdiaz.dev), simply clone the repository and follow the setup instructions. You'll be up and running in no time!
+
+### Setup 📋
+
+1. Clone the repo
+2. Install dependencies
+   ```sh
+   npm install
+   ```
+3. Start the development server
+   ```sh
+   npm run dev
+   ```
+4. Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
 
 ## Contribution 🤝
 
@@ -58,7 +72,7 @@ I welcome contributions to the [calculator](https://calculator.jpdiaz.dev)! Feel
 
 ## License 📜
 
-[calculator](https://calculator.jpdiaz.dev) is licensed under the MIT License.
+[Calculator](https://calculator.jpdiaz.dev) is licensed under the MIT License.
 
 We hope you enjoy using Jp·Shop!
 
