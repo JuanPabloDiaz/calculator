@@ -36,17 +36,17 @@ function App() {
   const buttonLeftStyle = "bg-[#F89B10] font-extrabold rounded-xl text-white";
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen bg-gray-800 w-full">
-        <form className="flex justify-center w-full p-5">
+      <div className="flex h-screen w-full flex-col items-center justify-center bg-gray-800">
+        <form className="flex w-full justify-center p-5">
           <input
             type="text"
             value={result}
             readOnly
-            className="w-1/2 md:w-5/12 lg:w-3/12 p-2 bg-black/40 text-white rounded-lg text-right text-4xl font-bold"
+            className="w-1/2 rounded-lg bg-black/40 p-2 text-right text-4xl font-bold text-white md:w-5/12 lg:w-3/12"
           />
         </form>
 
-        <div className="grid grid-cols-4 gap-2 border shadow-md shadow-gray-400 p-6 rounded-xl bg-black lg:w-3/12">
+        <div className="grid grid-cols-4 gap-2 rounded-xl border bg-black p-6 shadow-md shadow-gray-400 lg:w-3/12">
           <button
             name="clear"
             onClick={clear}
