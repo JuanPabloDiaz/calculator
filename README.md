@@ -12,7 +12,7 @@ This project was built as part of the **[freeCodeCamp Front End Libraries Certif
 
 [![calculator](https://img.shields.io/badge/View%20Demo-98C1D9?style=for-the-badge&logo=Google-Chrome&logoColor=060C0F)](https://math.jpdiaz.dev/)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=Figma&logoColor=white)](https://www.figma.com/community/file/1284214703277704177)
-[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://pr.new/github.com/JuanPabloDiaz/calculator)
+[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://stackblitz.com/github.com/JuanPabloDiaz/calculator)
 
 </div>
 
